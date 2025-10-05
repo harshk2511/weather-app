@@ -9,15 +9,14 @@ html {
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    min-width: 400px;
-    min-height: 400px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Bitcount Prop Single", system-ui;
+    margin: 0;
+    padding: 0;
 }
 
 #welcome-div {
@@ -30,6 +29,7 @@ body {
 #page-title {
     color: #934790;
     font-size: 2rem;
+    text-align: center;
 }
 
 .input-elements {
@@ -63,12 +63,13 @@ body {
     /* Change display to none */
     background-color: rgba(180, 222, 189, 0.5);
     padding: 1rem;
-    min-width: 400px;
+    max-width: 500px;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
 }
 
 #api-result-div {
