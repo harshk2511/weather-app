@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather-app</title>
+  </head>
+  <body>
+      <div id="app">
+        <div id="welcome-div">
+          <!-- Title -->
+          <div id="page-title">How's the weather today?</div>
+
+          <!-- Inputs & Search button -->
+          <div class="input-elements">
+              <input type="text" placeholder="Enter City" id="city-input">
+              <input type="text" placeholder="Enter Country" id="country-input">
+              <button id="search-btn">Search</button>
+          </div>
+        </div>
+        <!-- API results -->
+        <div id="api-result-main-div">
+            <div id="api-result-div">
+                <div class="api-result">
+                    <p class="api-result-title">Weather</p>
+                    <div id="weather-icon-div">
+                        <img src="brokenclouds.png" alt="">
+                        <p>Broken Clouds</p>
+                    </div>
+                </div>
+                <div class="api-result">
+                    <p class="api-result-title">Temperature</p>
+                    <div class="temperature-val-div">
+                        <p class="api-result-temperature">23° C</p>
+                    </div>
+                </div>
+                <div class="api-result">
+                    <p class="api-result-title">Feels Like</p>
+                    <div class="temperature-val-div">
+                        <p class="api-result-temperature">23° C</p>
+                    </div>
+                </div>
+            </div>
+            <div id="api-result-summary">
+                Expect a day of partly cloudy with rain
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
