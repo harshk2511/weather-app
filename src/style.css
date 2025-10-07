@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #FFF7DD;
+  background-color: #FFF8DE;
 }
 
 body {
@@ -79,6 +79,10 @@ body {
   /* width: 90%; */     /* Removed to allow expansion */
   max-width: 500px;     /* ✅ looks good on desktop */
   margin: 1rem auto;
+}
+
+.hide {
+  display: none !important;
 }
 
 #api-result-div {
@@ -155,4 +159,5 @@ body {
 
   #api-result-summary {
   margin-top: 1rem;
+}
 }
