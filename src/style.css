@@ -66,6 +66,10 @@ body {
   cursor: pointer;
 }
 
+#no-loc-found {
+  display: none;
+}
+
 /* WEATHER RESULT BOX */
 #api-result-main-div {
   background-color: rgba(180, 222, 189, 0.5);
