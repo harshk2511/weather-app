@@ -30,4 +30,4 @@ A simple and modern weather web app built with HTML, CSS, Vite, JavaScript, and 
 
 Before building or running locally, create a .env file in the root directory and add your API key:
 
-VITE_API_KEY=your_openweather_api_key_here
+VITE_OPENWEATHER_KEY=your_openweather_api_key_here
