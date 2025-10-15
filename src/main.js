@@ -18,7 +18,7 @@ submitBtn.addEventListener("click", async function() {
     console.log(cityName.value)
     console.log(countryName.value)
 
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName.value},${countryName.value}&limit=5&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName.value},${countryName.value}&limit=5&appid=${apiKey}`;
     let lat = 0
     let long = 0
 
@@ -58,7 +58,7 @@ submitBtn.addEventListener("click", async function() {
 
 // Make API call to 5 day / 3 hour forecast API with lat and long data and receive weather information
 async function getWeatherData(lat, long) {
-    const url = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=metric&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&units=metric&appid=${apiKey}`;
 
     try {
         const response = await fetch(url);
