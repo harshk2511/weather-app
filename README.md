@@ -2,6 +2,8 @@
 
 A simple and modern weather web app built with HTML, CSS, Vite, JavaScript, and OpenWeather API, providing real-time weather information for any city worldwide.
 
+Find it here -> https://hk-weather-app.vercel.app/
+
 🚀 Features:
 
 * 🌍 Search weather by city and country name
